@@ -1,0 +1,8 @@
+
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÖÚª8¶²¯˜Ñ1
+y	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¼È²ûÿÿÿÿ8¶²¯˜Ñ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éŸ©ıÿÿÿÿ8·²¯˜Ñ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(éŸ©ıÿÿÿÿ8Ã²¯˜Ñ1
+@
+java:S2119"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8Æ²¯˜Ñ1
