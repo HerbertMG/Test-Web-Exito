@@ -41,3 +41,8 @@ c
 3src/main/java/questions/validateAmountXProduct.java,4\1\410e4004a5ca616795227a80ac5b42171ce4aee8
 `
 0src/main/java/questions/validateTotalAmount.java,b\7\b7f8b0300ea3339b891fde789dded9bcd19dd673
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

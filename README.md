@@ -39,7 +39,6 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
    JDK [aquí](https://www.oracle.com/co/java/technologies/javase/jdk11-archive-downloads.html)
 2. Instalar git desde [aquí](https://git-scm.com)
 3. Instalar MAVEN desde [aquí](https://maven.apache.org/download.cgi)
-4. Instalar Android studio [aquí](https://developer.android.com/studio)
 
 
 👀 Adicional en su **IDE** de preferencia deberá tener instalados los siguientes plugins:
@@ -99,37 +98,48 @@ serenity.properties                     | General properties Serenity
 ## ▶️ Ejecución del proyecto:
 
 1. Descarga el proyecto desde GitHub
+
     * **Opción 1** (HTTPS): `https://github.com/HerbertMG/Test-Web-Exito.git`
     * **Opción 2:** Descárgalo como archivo Zip y extráelo
 
 ***
 
 2. **CD** en la carpeta `TestWebExito`.
+
 3. Configurar MAVEN
     * Ejecute el siguiente comando en el terminal:`mvn clean install`.
 
 ***
 
 4. Ejecutar las pruebas en el proyecto
-* Ir a las clases de la carpeta **runners** `src/test/java/runners/TestSuitRunner.java` y ejecutar
-  el Runner.
+    * **Opción 1:** ejecutar `mvn clean install` en el terminal del IDE:
+
+![img.png](src/test/resources/1_mvn_clean_install.png)
+
+    * **Opción 2:** Ir a las clases de la carpeta **runners** `src/test/java/runners/TestSuitRunner.java` y ejecutar el Runner manualmente.
+
+![img.png](src/test/resources/5_test_runner.png)
 
 ***
 
 ## 📄 Generación de informes
 
 El informe al detalle con los pasos y resultados de las pruebas que se registrará en la ruta:
-`TestAndroidBooking\target\site\serenityindex.html`.
+`TestWebExito/target/site/serenity/index.html`, despues de ejecutar el comando `mvn clean install` de la opción 1.
+
+ ![img.png](src/test/resources/1_mvn_clean_install_result.png)
+
+ ![img.png](src/test/resources/4_test_result_index.png)
 
 Adicional se genera un reporte single page si se desea una revisión de alto nivel sobre los resultados de los test, el
-cual se registrará en la ruta:
-`target/site/serenity/serenity-summary.html`.
+cual se registrará en la ruta:`TestWebExito/target/site/serenity/serenity-summary.html`.
 
-Este comando permitirá generar ambos reportes:
+ ![img.png](src/test/resources/3_summary_report.png)
+
+Este comando permitirá generar solo los reportes:
 
 ```bash
-mvn clean verify serenity:aggregate
-
+mvn serenity:aggregate
 ```
 
 ***
