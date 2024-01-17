@@ -107,7 +107,8 @@ serenity.properties                     | General properties Serenity
 2. **CD** en la carpeta `TestWebExito`.
 
 3. Configurar MAVEN
-    * Ejecute el siguiente comando en el terminal:`mvn clean install`.
+    * Ejecute el siguiente comando en el terminal:`mvn clean`.
+![1_mvn_clean](https://github.com/HerbertMG/Test-Web-Exito/assets/21046648/00554dff-d1c3-49bc-86a9-818dc8f9e2a2)
 
 ***
 
