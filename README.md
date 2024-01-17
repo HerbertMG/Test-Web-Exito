@@ -107,21 +107,24 @@ serenity.properties                     | General properties Serenity
 2. **CD** en la carpeta `TestWebExito`.
 
 3. Configurar MAVEN
-    * Ejecute el siguiente comando en el terminal:`mvn clean install`.
+    * Ejecute el siguiente comando en el terminal:`mvn clean`.
+<p align="center">
+  <img src="src/test/resources/evidencias/1_mvn_clean.png"/>
+</p>
 
 ***
 
 4. Ejecutar las pruebas en el proyecto
-    * **Opción 1:** ejecutar `mvn clean install` en el terminal del IDE:
+* **Opción 1:** ejecutar `mvn clean install` en el terminal del IDE:
 
 <p align="center">
-  <img src="src/test/resources/1_mvn_clean_install.png"/>
+  <img src="src/test/resources/evidencias/1_mvn_clean_install.png"/>
 </p>
 
-    * **Opción 2:** Ir a las clases de la carpeta **runners** `src/test/java/runners/TestSuitRunner.java` y ejecutar el Runner manualmente.
+* **Opción 2:** Ir a las clases de la carpeta **runners** `src/test/java/runners/TestSuitRunner.java` y ejecutar el Runner manualmente.
 
 <p align="center">
-  <img src="src/test/resources/5_test_runner.png"/>
+  <img src="src/test/resources/evidencias/5_test_runner.png"/>
 </p>
 
 ***
@@ -132,23 +135,25 @@ El informe al detalle con los pasos y resultados de las pruebas que se registrar
 `TestWebExito/target/site/serenity/index.html`, despues de ejecutar el comando `mvn clean install` de la opción 1.
 
 <p align="center">
-  <img src="src/test/resources/1_mvn_clean_install_result.png"/>
+  <img src="src/test/resources/evidencias/1_mvn_clean_install_result.png"/>
 </p>
 
 <p align="center">
-  <img src="src/test/resources/4_test_result_index.png"/>
+  <img src="src/test/resources/evidencias/4_test_result_index.png"/>
 </p>
 
 Adicional se genera un reporte single page si se desea una revisión de alto nivel sobre los resultados de los test, el
 cual se registrará en la ruta:`TestWebExito/target/site/serenity/serenity-summary.html`.
 
 <p align="center">
-  <img src="src/test/resources/3_summary_report.png"/>
+  <img src="src/test/resources/evidencias/3_summary_report.png"/>
 </p>
 
-Este comando permitirá generar solo los reportes:
+Esta continuacion de comandos permitirá generar los reportes en pasos independientes:
 
 ```bash
+mvn clean
+mvn test
 mvn serenity:aggregate
 ```
 
