@@ -108,6 +108,7 @@ serenity.properties                     | General properties Serenity
 
 3. Configurar MAVEN
     * Ejecute el siguiente comando en el terminal:`mvn clean`.
+
 <p align="center">
   <img src="src/test/resources/evidencias/1_mvn_clean.png"/>
 </p>
