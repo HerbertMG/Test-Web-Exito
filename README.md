@@ -114,11 +114,15 @@ serenity.properties                     | General properties Serenity
 4. Ejecutar las pruebas en el proyecto
     * **Opción 1:** ejecutar `mvn clean install` en el terminal del IDE:
 
-![img.png](src/test/resources/1_mvn_clean_install.png)
+<p align="center">
+  <img src="src/test/resources/1_mvn_clean_install.png"/>
+</p>
 
     * **Opción 2:** Ir a las clases de la carpeta **runners** `src/test/java/runners/TestSuitRunner.java` y ejecutar el Runner manualmente.
 
-![img.png](src/test/resources/5_test_runner.png)
+<p align="center">
+  <img src="src/test/resources/5_test_runner.png"/>
+</p>
 
 ***
 
@@ -127,14 +131,20 @@ serenity.properties                     | General properties Serenity
 El informe al detalle con los pasos y resultados de las pruebas que se registrará en la ruta:
 `TestWebExito/target/site/serenity/index.html`, despues de ejecutar el comando `mvn clean install` de la opción 1.
 
- ![img.png](src/test/resources/1_mvn_clean_install_result.png)
+<p align="center">
+  <img src="src/test/resources/1_mvn_clean_install_result.png"/>
+</p>
 
- ![img.png](src/test/resources/4_test_result_index.png)
+<p align="center">
+  <img src="src/test/resources/4_test_result_index.png"/>
+</p>
 
 Adicional se genera un reporte single page si se desea una revisión de alto nivel sobre los resultados de los test, el
 cual se registrará en la ruta:`TestWebExito/target/site/serenity/serenity-summary.html`.
 
- ![img.png](src/test/resources/3_summary_report.png)
+<p align="center">
+  <img src="src/test/resources/3_summary_report.png"/>
+</p>
 
 Este comando permitirá generar solo los reportes:
 
